@@ -1,0 +1,73 @@
+html, body{
+    height: 100%;
+}
+
+header{
+    background-image: url(img/castelo.jpg);
+    background-size: cover;
+    background-position: top center;
+    height: 100%;
+}
+
+header h1{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.banner{
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: .3s;
+}
+
+#paineis-sobre{
+    margin-top: 20px;
+}
+
+.titulo-depoimentos{
+    background-color: #0275d8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    margin-bottom: 0px;
+    color: #fff;
+}
+
+.group-radio{
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.enviar{
+    display: block;
+}
+
+footer{
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    margin-top: 10px;
+}
+
+footer address:last-child {
+    margin-bottom: 0px;
+}
+
+@media(min-width: 768px){
+    .responsivo{
+        width:50%;
+        float: left;
+    }
+
+    #paineis-sobre{
+        margin-top: 0px;
+    }
+}
